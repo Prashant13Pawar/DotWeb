@@ -10,19 +10,25 @@
    height: 100vh; 
    border: 3px solid black;
    display: grid;
-   grid-template-columns: 1fr 1fr 1fr ;
-   gap:20px
+   grid-template-columns: 150px 1fr;
+   grid-template-rows: 50px 1fr 50px;
+   gap:10px
    
 }
 .box1{
     background-color: blueviolet;
     border: 2px solid black;
+
 }
 #box_1{
     grid-column-start: 1;
-    grid-column-end: 3;
+    grid-column-end: 4;
 }
 #box_3{
-    grid-row-start: 2;
-    grid-row-end: 4;
+    /* grid-row-start: 2;
+    grid-row-end: 4; */
+}
+#box_4{
+    grid-column-start: 1;
+    grid-column-end: 4;
 }
