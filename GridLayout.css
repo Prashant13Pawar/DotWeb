@@ -24,10 +24,7 @@
     grid-column-start: 1;
     grid-column-end: 4;
 }
-#box_3{
-    /* grid-row-start: 2;
-    grid-row-end: 4; */
-}
+
 #box_4{
     grid-column-start: 1;
     grid-column-end: 4;
