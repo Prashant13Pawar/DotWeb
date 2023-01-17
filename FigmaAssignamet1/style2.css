@@ -1,0 +1,458 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#wrapper {
+  overflow-x: hidden;
+  overflow-y: auto;
+  height: 100vh;
+}
+.container {
+  width: 1440px;
+  height: 1461px;
+  left: 0px;
+  top: 0px;
+  background: white;
+  border-radius: 0px;
+  position: absolute;
+}
+.conatainer2{
+    position: absolute;
+width: 1440px;
+height: 390px;
+left: 0px;
+top: 1468px;
+
+background: #FFFFFF
+}
+.logo {
+  position: absolute;
+  width: 98px;
+  height: 82px;
+  left: 117px;
+  top: 53px;
+}
+.team {
+  position: absolute;
+  width: 51px;
+  height: 20px;
+  left: 485px;
+  top: 74px;
+
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  /* identical to box height, or 111% */
+  color: #4e5dc0;
+}
+.about {
+  position: absolute;
+  width: 79px;
+  height: 20px;
+  left: 608px;
+  top: 74px;
+
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  /* identical to box height, or 111% */
+
+  color: #777c85;
+}
+.courses {
+  position: absolute;
+  width: 70px;
+  height: 20px;
+  left: 754px;
+  top: 74px;
+
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  /* identical to box height, or 111% */
+
+  /* Neutral 1 */
+
+  color: #777c85;
+}
+.contact {
+  position: absolute;
+  width: 68px;
+  height: 20px;
+  left: 898px;
+  top: 74px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: thin;
+  font-size: 18px;
+  line-height: 20px;
+  color: #777c85;
+}
+.startButton {
+  position: absolute;
+  width: 165px;
+  height: 54px;
+  left: 1205px;
+  top: 54px;
+
+  background: #4e5dc0;
+  border-radius: 5px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+}
+.teamCodeHelp{
+    
+position: absolute;
+width: 312px;
+height: 45px;
+left: 117px;
+top: 266px;
+
+font-family: 'Roboto Flex';
+font-style: normal;
+font-weight: 400;
+font-size: 38px;
+line-height: 45px;
+/* identical to box height */
+
+
+color: #16171C;
+font-stretch: 100;
+font-variation-settings: 'GRAD' 122, 'slnt' 0, 'XTRA' 603, 'XOPQ' 96, 'YOPQ' 100, 'YTLC' 514, 'YTUC' 712, 'YTAS' 750, 'YTDE' -203, 'YTFI' 738;
+}
+
+.para1{
+    position: absolute;
+width: 573px;
+height: 272px;
+left: 117px;
+top: 373px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 34px;
+/* or 170% */
+
+
+color: #000000;
+
+opacity: 0.5;
+}
+.parentOne{
+    display: flex;
+}
+.pic1{
+    position: absolute;
+width: 570px;
+height: 427px;
+left: 800px;
+top: 266px;
+border-radius: 30px;
+}
+.pic2{
+    position: absolute;
+    width: 500px;
+    height: 480px;
+    left: 117px;
+    top: 860px;
+    border-radius: 30px;
+}
+.para2{
+    position: absolute;
+    width: 462px;
+    height: 306px;
+    left: 791px;
+    top: 979px;
+    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 34px;
+    /* or 170% */
+    
+    
+    color: #000000;
+    
+    opacity: 0.5;
+}
+.founder{
+    position: absolute;
+width: 260px;
+height: 45px;
+left: 791px;
+top: 872px;
+
+font-family: 'Roboto Flex';
+font-style: normal;
+font-weight: 400;
+font-size: 38px;
+line-height: 45px;
+/* identical to box height */
+
+
+color: #16171C;
+font-stretch: 100;
+font-variation-settings: 'GRAD' 122, 'slnt' 0, 'XTRA' 603, 'XOPQ' 96, 'YOPQ' 100, 'YTLC' 514, 'YTUC' 712, 'YTAS' 750, 'YTDE' -203, 'YTFI' 738;
+}
+.logo2{
+    position: absolute;
+    width: 98px;
+    height: 82px;
+    left: 80px;
+    top: 85px;
+    
+}
+.privacy{
+    position: absolute;
+    width: 222px;
+    height: 32px;
+    left: 70px;
+    top: 213px;
+    
+    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    /* identical to box height, or 200% */
+    
+    letter-spacing: 3px;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    
+    color: #4E5DC0;
+}
+.rightReserve{
+    position: absolute;
+    width: 209px;
+    height: 64px;
+    left: 70px;
+    top: 259px;
+    
+   
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 32px;
+    /* or 200% */
+    
+    
+    color: #999999;
+}
+.rightReserve2{
+    position: absolute;
+    width: 300px;
+    height: 64px;
+    left: 70px;
+    top: 280px;
+    
+   
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 32px;
+    /* or 200% */
+    
+    
+    color: #999999;
+}
+.address{
+    position: absolute;
+    width: 92px;
+    height: 32px;
+    left: 435px;
+    top: 53px;
+    
+    
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 32px;
+    /* identical to box height, or 200% */
+    
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    
+    color: #4E5DC0;
+}
+.addressans{
+    position: absolute;
+    width: 332px;
+    height: 96px;
+    left: 435px;
+    top: 99px;
+    
+   
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 32px;
+    /* or 200% */
+    
+    
+    color: #999999;
+}
+.email{
+    position: absolute;
+    width: 61px;
+    height: 32px;
+    left: 435px;
+    top: 235px;
+    
+   
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 32px;
+    /* identical to box height, or 200% */
+    
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    
+    color: #4E5DC0;
+}
+.emailans{
+    position: absolute;
+    width: 185px;
+    height: 32px;
+    left: 435px;
+    top: 281px;
+    
+   
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 32px;
+    /* identical to box height, or 200% */
+    
+    
+    color: #999999;
+}
+.menu{
+    position: absolute;
+    width: 57px;
+    height: 32px;
+    left: 925px;
+    top: 53px;
+    
+   
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 32px;
+    /* identical to box height, or 200% */
+    
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    
+    color: #4E5DC0;
+}
+.team2{
+    position: absolute;
+    width: 69px;
+    height: 128px;
+    left: 925px;
+    top: 99px;
+    
+   
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 32px;
+    /* or 200% */
+    
+    
+    color: #999999;
+}
+.about2{
+    position: absolute;
+    width:100px;
+    height: 128px;
+    left: 925px;
+    top: 130px;
+    
+   
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 32px;
+    /* or 200% */
+    
+    
+    color: #999999;
+}
+.course2{
+    position: absolute;
+    width: 69px;
+    height: 128px;
+    left: 925px;
+    top: 165px;
+    
+   
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 32px;
+    /* or 200% */
+    
+    
+    color: #999999;
+}
+.contact2{
+    position: absolute;
+    width: 69px;
+    height: 128px;
+    left: 925px;
+    top: 200px;
+    
+   
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 32px;
+    /* or 200% */
+    
+    
+    color: #999999;
+}
+.facebook{
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: 1229px;
+    top: 49px;
+    color:white;
+    background: #FFFFFF;
+}
+.twiter{
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: 1282px;
+    top: 49px;
+    background: #4E5DC0;
+    color: white;
+}
+.instagram{
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: 1340px;
+    top: 49px;
+    background: #4E5DC0;
+    color: white;
+}
