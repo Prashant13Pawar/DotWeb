@@ -1,0 +1,64 @@
+
+.container{
+    height: 100vh;
+    width: 100%;
+   
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 50px 1fr 50px ;
+    grid-template-areas: 
+    "hd hd hd"
+    "left nested right"
+    "ft ft ft";
+    gap:10px;
+}
+.box{
+   
+    border: 1px solid black;
+}
+
+#Header{
+    grid-area: hd;
+}
+#LeftSide{
+    grid-area: left;
+}
+#nestedGrid{
+    grid-area: nested;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 50px 1fr ;
+    grid-template-areas: 
+    "shd"
+    "main";
+    gap:10px;
+}
+#SubHeader{
+    grid-area: shd;
+}
+#Main{
+    grid-area: main;
+}
+#RightSide{
+    grid-area: right;
+}
+#Footer{
+    grid-area: ft;
+}
+
+@media(min-width:500px) and (max-width:900px){
+    .container{
+        height: 100vh;
+        width: 100%;
+        background-color: red;
+    }
+   
+}
+
+@media(max-width:500px){
+    .container{
+        height: 100vh;
+        width: 100%;
+        background-color: blue;
+    }
+}
