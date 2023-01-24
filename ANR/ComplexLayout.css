@@ -42,7 +42,7 @@
 #main{
     grid-area: m;
    
-    background-color: lightcyan;
+    background-color: lightsalmon;
 }
 #side{
     grid-area: s;
@@ -51,7 +51,6 @@
 }
 #footer{
     grid-area: f;
-   
     background-color: lightseagreen;
 }
 
@@ -102,7 +101,7 @@
     #main{
         grid-area: m;
         
-        background-color: lightcyan;
+        background-color: lightsalmon;
     }
     #side{
         grid-area: s;
@@ -171,7 +170,7 @@
         grid-area: m;
         /* grid-column-start: 1;
        grid-column-end: 13; */
-        background-color: lightcyan;
+       background-color: lightsalmon;
     }
     #side{
         grid-area: s;
